@@ -18,8 +18,8 @@ common warnings
 executable goog
     import:           warnings
     main-is:          Main.hs
-    other-modules:  ArraysAndHashing
+    other-modules:  ArraysAndHashing, GroupAnagrams
     -- other-extensions:
-    build-depends:    base ^>=4.17.0.0, unordered-containers
+    build-depends:    base ^>=4.17.0.0, containers
     hs-source-dirs:   haskell
     default-language: GHC2021
