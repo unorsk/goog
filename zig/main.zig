@@ -16,6 +16,16 @@ pub fn main() !void {
     try bw.flush(); // don't forget to flush!
 }
 
+pub fn topKFrequentElements() []i128 {
+    var my_hash_map = std.AutoHashMap(i128, i128).init(std.testing.allocator);
+    _ = my_hash_map;
+    return &[_]i128{123};
+}
+
+test "top k freq elements" {
+    try std.testing.expectEqualSlices(i128, &[_]i128{123}, topKFrequentElements());
+}
+
 test "simple test" {
     var list = std.ArrayList(i32).init(std.testing.allocator);
     defer list.deinit(); // try commenting this out and see if zig detects the memory leak!
