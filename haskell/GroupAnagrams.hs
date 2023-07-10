@@ -1,3 +1,4 @@
+module GroupAnagrams where
 import Data.List (sort)
 import qualified Data.Map as Map
 

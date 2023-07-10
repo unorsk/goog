@@ -22,7 +22,8 @@ executable goog
         ArraysAndHashing
         , GroupAnagrams
         , TopKFrequentElements0349
+        , TimeSort
     -- other-extensions:
-    build-depends:    base ^>=4.17.0.0, containers
+    build-depends:    base ^>=4.17.0.0, containers, async
     hs-source-dirs:   haskell
     default-language: GHC2021
