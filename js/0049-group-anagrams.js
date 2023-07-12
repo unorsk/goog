@@ -2,7 +2,7 @@
  * @param {string[]} strs
  * @return {string[][]}
  */
-var groupAnagrams = function(strs) {
+var groupAnagrams = function (strs) {
   const map = new Map()
   for (let i = 0; i < strs.length; i++) {
     const sortedStr = strs[i].split("").sort().join("")
@@ -15,6 +15,7 @@ var groupAnagrams = function(strs) {
 
   return Array.from(map.values())
 };
+
 
 // var groupAnagrams = function(strs) {
 //   const a = 'a'.charCodeAt(0)
@@ -32,8 +33,8 @@ var groupAnagrams = function(strs) {
 //     console.log(value)
 //     map.set(key, value)
 //   }
-  
+
 //   return Array.from(map.values())
 // }
 
-console.log(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
+console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
