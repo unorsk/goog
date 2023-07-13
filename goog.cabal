@@ -25,6 +25,7 @@ executable goog
   other-modules:
     ArraysAndHashing
     GroupAnagrams
+    LC0126ValidPalindrome
     TimeSort
     TopKFrequentElements0349
 
@@ -34,6 +35,7 @@ executable goog
     , base                  ^>=4.17.0.0
     , containers
     , unordered-containers
+    , vector
 
   hs-source-dirs:   haskell
   default-language: GHC2021

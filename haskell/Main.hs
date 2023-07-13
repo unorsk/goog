@@ -1,5 +1,7 @@
 module Main where
 
+import LC0126ValidPalindrome (isValidPalindrome)
+
 main :: IO ()
 main =
-  putStrLn "Hello, Haskell!"
+  print $ isValidPalindrome "hello"
