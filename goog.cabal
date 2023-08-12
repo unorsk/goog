@@ -32,7 +32,7 @@ executable goog
   -- other-extensions:
   build-depends:
     , async
-    , base                  ^>=4.17.0.0
+    , base                  ^>=4.18.0.0
     , containers
     , unordered-containers
     , vector
