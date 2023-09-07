@@ -1,6 +1,6 @@
 module Main where
 
-import LC0126ValidPalindrome (isValidPalindrome)
+import LC
 
 main :: IO ()
 main =
