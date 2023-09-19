@@ -1,7 +1,9 @@
 module Main (main) where
 
-import Test.Hspec
 import LC
+import Test.Hspec
+
+-- TODO tests twoSumSorted
 
 main :: IO ()
 main =

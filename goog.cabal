@@ -17,8 +17,6 @@ library
     ArraysAndHashing
     GroupAnagrams
     LC
-    LC0126ValidPalindrome
-    TopKFrequentElements0349
 
   build-depends:
     , async

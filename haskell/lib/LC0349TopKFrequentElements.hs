@@ -1,4 +1,4 @@
-module TopKFrequentElements0349 where
+module LC0349TopKFrequentElements where
 
 import Data.List (sortBy)
 import Data.Map qualified as Map

@@ -1,6 +1,13 @@
-module LC (containsDuplicate, groupAnagrams, isValidPalindrome, topKFrequentElements) where
+module LC
+  ( containsDuplicate
+  , groupAnagrams
+  , isValidPalindrome
+  , topKFrequentElements
+  , twoSumSorted
+  ) where
 
 import ArraysAndHashing (containsDuplicate)
 import GroupAnagrams (groupAnagrams)
 import LC0126ValidPalindrome (isValidPalindrome)
-import TopKFrequentElements0349 (topKFrequentElements)
+import LC0167TwoSumSorted (twoSumSorted)
+import LC0349TopKFrequentElements (topKFrequentElements)
