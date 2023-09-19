@@ -13,10 +13,12 @@ common warnings
 
 library
   import:           warnings
-  exposed-modules:
-    ArraysAndHashing
-    GroupAnagrams
-    LC
+  exposed-modules:  LC
+  other-modules:
+    LC0001TwoSum
+    LC0126ValidPalindrome
+    LC0167TwoSumSorted
+    LC0349TopKFrequentElements
 
   build-depends:
     , async

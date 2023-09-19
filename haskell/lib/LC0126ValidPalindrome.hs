@@ -1,6 +1,3 @@
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-
-{-# HLINT ignore "Redundant if" #-}
 module LC0126ValidPalindrome (isValidPalindrome) where
 
 import Data.Char
