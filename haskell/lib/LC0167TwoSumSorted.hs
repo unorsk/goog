@@ -1,10 +1,7 @@
 module LC0167TwoSumSorted where
 
 twoSumSorted :: [Int] -> Int -> Maybe (Int, Int)
-twoSumSorted nums target =
-  let left = 0
-      right = length nums - 1
-   in twoSumSorted' left right
+twoSumSorted nums target = twoSumSorted' 0 (length nums - 1)
  where
   twoSumSorted' :: Int -> Int -> Maybe (Int, Int)
   twoSumSorted' l r
