@@ -16,6 +16,7 @@ library
   exposed-modules:  LC
   other-modules:
     LC0001TwoSum
+    LC0020ValidParenteses
     LC0126ValidPalindrome
     LC0167TwoSumSorted
     LC0349TopKFrequentElements
