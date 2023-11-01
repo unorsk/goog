@@ -19,6 +19,7 @@ library
     LC0011ContainerWithMostWater
     LC0020ValidParenteses
     LC0042TrappingRainWater
+    LC0121BestTimeToBuyStock
     LC0126ValidPalindrome
     LC0167TwoSumSorted
     LC0349TopKFrequentElements

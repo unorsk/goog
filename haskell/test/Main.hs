@@ -61,3 +61,8 @@ main =
         maxArea [1, 8, 6, 2, 5, 4, 8, 3, 7] `shouldBe` 49
       it "maxArea [1,1] 1" $
         maxArea [1, 1] `shouldBe` 1
+    describe "LC0121" $ do
+      it "maxProfit [7,1,5,3,6,4] 5" $
+        maxProfit [7, 1, 5, 3, 6, 4] `shouldBe` 5
+      it "maxProfit [7,6,4,3,1] 0" $
+        maxProfit [7, 6, 4, 3, 1] `shouldBe` 0
